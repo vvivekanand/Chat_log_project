@@ -1,0 +1,39 @@
+Project Name : Chatlog
+
+
+>> The chatlog which we created is having a single server where multiple users can add their data (by adding the message in message section).
+
+
+>> The following modules should be installed to work with this application
+
+   express, bodyparser, http, socket.io, mongoose, node
+
+
+>> And below are the some commands to install those modules in our vs code
+
+  -->> npm install node
+
+  -->> npm install express
+
+  -->> npm install bodyparser
+
+  -->> npm install http
+
+  -->> npm install socket.io
+
+  -->> npm install mongoose
+
+  -->> node server.js // (to connect with the server)
+ 
+>> When a user connect to the server (localhost:3000) and adds some message in the message section that particular message will display in the same page
+
+>> And the same message will get stored in the collection inside the mongocompass
+
+ --> databse used -->> (chat)
+
+ --> collection used -->> (messages)
+
+>> In this way the message will gets stored in both the server and mongocompass.
+
+>> when an another user connect to the same server then that user can also see the recent data which is stored already by other users.
+
